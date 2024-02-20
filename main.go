@@ -13,5 +13,14 @@ func main() {
 
 	// slices (use arrays under the hood)
 	var numbers = []int{2, 3, 4}
-	fmt.Println(numbers)
+	numbers[2] = 25
+	numbers = append(numbers, 10)
+	fmt.Println(numbers, len(numbers))
+
+	// slices ranges
+	rangeOne := names[1:3]
+	rangeTwo := names[2:]
+	rangeThree := names[:3]
+
+	fmt.Println(rangeOne, rangeTwo, rangeThree)
 }
