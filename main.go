@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	// arrays
 
-	var ages = [3]int{22, 23, 24}
+	var ages = [3]int{21, 22, 24}
 	names := [4]string{"yoshi", "mario", "peach", "bowser"}
 
 	fmt.Println(ages, len(ages))
